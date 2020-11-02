@@ -1,0 +1,7 @@
+Justificativa
+
+	No material inicialmente recebido, as classes FabricaBoloBaunilhaComMorango e FabricaBoloChocolateComCaramelo
+apresentavam repetição pesada de codigo, realizando as mesmas operacoes e diferindo apenas em seu retorno. Decidi
+usar o padrao Template Method, o padrao Strategy tambem seria aplicavel, fazendo o uso de uma superclasse, usando
+uma classe abstrata como base, foi possivel definir os metodos comuns em um so lugar atribuir as instancias dessas
+classes o trabalho da implementacao de metodos diferentes.
